@@ -1,5 +1,4 @@
 import streamlit as st
-import geopandas
 from PIL import Image
 
 st.set_page_config(
