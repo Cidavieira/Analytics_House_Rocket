@@ -1,5 +1,5 @@
 ![alt text](https://github.com/Cidavieira/Analytics_House_Rocket/blob/main/image.jpg)
-# Analytics_House_Rocket
+# Analytics House Rocket
   # Objetivo: 
   Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio.
   # Questão de Negócio (Bussiness Problem): 
