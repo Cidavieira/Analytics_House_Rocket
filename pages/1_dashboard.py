@@ -151,7 +151,7 @@ def commercial_distribution(data):
     max_year_built = int(data['yr_built'].max())
 
     st.sidebar.subheader('Select Max Year Built')
-    f_year_built = st.sidebar.slider('year Built', min_year_built, max_year_built, max_year_built) #####################
+    f_year_built = st.sidebar.slider('year Built', min_year_built, max_year_built, max_year_built)
     st.header('Average Price per Year built')
 
     # data selection
@@ -173,7 +173,7 @@ def commercial_distribution(data):
     min_date = datetime.strptime(data['date'].min(), '%Y-%m-%d')
     max_date = datetime.strptime(data['date'].max(), '%Y-%m-%d')
 
-    f_date = st.sidebar.slider('Date', min_date, max_date, max_date)  ########################################
+    f_date = st.sidebar.slider('Date', min_date, max_date, max_date)  
 
     # data filtering
     data['date'] = pd.to_datetime(data['date'])
@@ -195,7 +195,7 @@ def commercial_distribution(data):
     avg_price = int(data['price'].mean())
 
     # data filtering
-    f_price = st.sidebar.slider('price', min_price, max_price, max_price) ###########################
+    f_price = st.sidebar.slider('price', min_price, max_price, max_price) 
     df = data.loc[data['price'] < f_price]
 
     # data plot
@@ -208,9 +208,9 @@ def attributes_distribution(data):
     st.title('House Attributes')
 
     # filters
-    f_bedrooms = st.sidebar.selectbox('Max number os bedrooms', sorted(set(data['bedrooms'].unique())))
+    f_bedrooms = st.sidebar.selectbox('Max number os bedrooms', sorted(set(data['bedrooms'].unique(),5))) ###############
 
-    f_bathrooms = st.sidebar.selectbox('Max number os bathrooms', sorted(set(data['bathrooms'].unique())))
+    f_bathrooms = st.sidebar.selectbox('Max number os bathrooms', sorted(set(data['bathrooms'].unique(),5))) #################
 
     c1, c2 = st.columns(2)
     # house per bedrooms
@@ -226,7 +226,7 @@ def attributes_distribution(data):
     c2.plotly_chart(fig, use_container_width=True)
 
     # filters
-    f_floors = st.sidebar.selectbox('Max number of floors', sorted(set(data['floors'].unique())))
+    f_floors = st.sidebar.selectbox('Max number of floors', sorted(set(data['floors'].unique(),3))) #####################
 
     f_waterview = st.sidebar.checkbox('Only Houses with Water View')
 
