@@ -210,7 +210,7 @@ def attributes_distribution(data):
     # filters
     f_bedrooms = st.sidebar.selectbox('Max number os bedrooms', sorted(set(data['bedrooms'].unique()),reverse=True)) ###############
 
-    f_bathrooms = st.sidebar.selectbox('Max number os bathrooms', sorted(set(data['bathrooms'].unique()))) #################
+    f_bathrooms = st.sidebar.selectbox('Max number os bathrooms', sorted(set(data['bathrooms'].unique()),reverse=True)) #################
 
     c1, c2 = st.columns(2)
     # house per bedrooms
@@ -226,7 +226,7 @@ def attributes_distribution(data):
     c2.plotly_chart(fig, use_container_width=True)
 
     # filters
-    f_floors = st.sidebar.selectbox('Max number of floors', sorted(set(data['floors'].unique()))) #####################
+    f_floors = st.sidebar.selectbox('Max number of floors', sorted(set(data['floors'].unique()),reverse=True)) #####################
 
     f_waterview = st.sidebar.checkbox('Only Houses with Water View')
 
