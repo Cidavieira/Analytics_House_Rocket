@@ -18,7 +18,7 @@ st.write(" ### House Rocket - Dashboard / Insights / Recommendation")
 
 st.markdown(
     """
-    House Rocket foi construído pra acompanhar a distribuição de imóveis, verificar Insights deste data base e Recomendar quais imóveis devem ser compradas e vendidas juntamente com os preços sugeridos.
+    House Rocket foi construído pra acompanhar a distribuição de imóveis, verificar Insights deste data base e Recomendar quais imóveis devem ser comprados e revendidos juntamente com os preços sugeridos.
     ### Como utilizar esse Growth Dasboard?
     - Dashbord:
         - Principais Métricas Gerais de distribuição de imóveis.
