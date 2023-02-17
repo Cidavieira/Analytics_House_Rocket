@@ -1,5 +1,5 @@
 # Analytics_House_Rocket
-Objetivo: Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio
+## Objetivo: Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio
 Questão de Negócio (Bussiness Problem): Responder a duas questões: 1) Quais são os imóveis que a House Rocket deveria comprar e por qual preço? 2) Uma vez o imóvel comprado, qual o melhor momento para vende-lo e por qual preço?
 Premissas de Negócio (Bussiness Assumptions): Imóveis no periodo frio (meses 12,1,2,3,4,5,) tendem a vender mais barato que no periodo quente (meses 6,7,8,9,10,11) no conjunto de dados analisado, América do Norte.
 Planejamento (Solution Strategy) - Entendimento do Negócio: Vou gerar 2 relatórios, 1) Relatório com sugestões de compra de imóvel por um valor recomendado. 2) Relatório com as sugestões de venda de um imóvel por um valor recomendado.
