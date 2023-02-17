@@ -1,4 +1,4 @@
-![alt text](http://url/to/img.png)
+![alt text](http://url/to/image.jpg)
 # Analytics_House_Rocket
   # Objetivo: 
   Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio.
