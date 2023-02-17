@@ -1,4 +1,4 @@
-![alt text](http://https://github.com/Cidavieira/Analytics_House_Rocket/edit/main//to/image.jpg)
+![alt text](https://github.com/Cidavieira/Analytics_House_Rocket/blob/main/image.jpg)
 # Analytics_House_Rocket
   # Objetivo: 
   Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio.
