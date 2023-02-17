@@ -18,5 +18,6 @@
   Criação da coluna Lucro, se todas as recomendações forem seguidas, o lucro da empresa será de  935 milhões de dolares = 935.745.417,0
   # Conclusão (Conclusions): 
   O objetivo foi alcançado, é possível ter uma idéia claro dos melhores negócios do portfólio.
+  O Painel pode ser acessado pelo Link https://cidavieira-analytics-house-rocket-home-udtx4t.streamlit.app/
   # Próximos Passos (Next Steps To Improve):
   Adicionar ferramentas de Machine Learning para melhorar as recomendações.
