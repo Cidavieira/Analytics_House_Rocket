@@ -151,7 +151,7 @@ def commercial_distribution(data):
     max_year_built = int(data['yr_built'].max())
 
     st.sidebar.subheader('Select Max Year Built')
-    f_year_built = st.sidebar.slider('year Built', min_year_built, max_year_built, min_year_built)
+    f_year_built = st.sidebar.slider('year Built', min_year_built, max_year_built, max_year_built) #####################
     st.header('Average Price per Year built')
 
     # data selection
@@ -173,7 +173,7 @@ def commercial_distribution(data):
     min_date = datetime.strptime(data['date'].min(), '%Y-%m-%d')
     max_date = datetime.strptime(data['date'].max(), '%Y-%m-%d')
 
-    f_date = st.sidebar.slider('Date', min_date, max_date, min_date)
+    f_date = st.sidebar.slider('Date', min_date, max_date, max_date)  ########################################
 
     # data filtering
     data['date'] = pd.to_datetime(data['date'])
@@ -195,7 +195,7 @@ def commercial_distribution(data):
     avg_price = int(data['price'].mean())
 
     # data filtering
-    f_price = st.sidebar.slider('price', min_price, max_price, avg_price)
+    f_price = st.sidebar.slider('price', min_price, max_price, max_price) ###########################
     df = data.loc[data['price'] < f_price]
 
     # data plot
