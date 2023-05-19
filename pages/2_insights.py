@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly as plt
 import plotly.express as px
+import datetime
 
-from datetime import datetime,time,strptime
+from datetime import datetime,time
 
 st.set_page_config(page_title='Insights',layout='wide')
 
