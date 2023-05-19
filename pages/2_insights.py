@@ -17,7 +17,7 @@ def set_feature(data):
     data['price_m2'] = data['price'] / data['sqft_lot']
     data['year'] = pd.DatetimeIndex(data['date']).year
     # change format
-    data['date'] = datetime.strptime(data['date'], format='%Y%m%d')
+    data['date'] = datetime(data['date'], format='%Y%m%d')
     #data['date'] = pd.to_datetime(data['date'], format='%Y-%m-%d')
     return data
 
